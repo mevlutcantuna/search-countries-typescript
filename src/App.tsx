@@ -6,7 +6,7 @@ import CountryCard from "./components/CountryCard";
 
 const App = () => {
   const [countries, setCountries] = useState<CountryType[]>([]);
-  const [searchValue, setSearchValue] = useState<string>("united");
+  const [searchValue, setSearchValue] = useState<string>("Turkey");
   const [isError, setIsError] = useState<boolean>(false);
 
 
